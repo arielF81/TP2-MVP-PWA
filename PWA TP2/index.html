@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Alumno: Ariel Fiorito, Materia: PWA, Profesor: Rubino, Gonzalo </title>
+    <link rel="manifest" href="./manifest.json">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , minimum-scale= 1" />
+
+    <link rel="stylesheet" href="css/style_responsive.css" />
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 540px)" />
+    <link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 1024px)" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-info" id="navbar">
+            <h1>R&M</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="favoritos.html">Favoritos</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a class="nav-link text-white" href="episodios.html">Episodios</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+
+
+
+    </header>
+
+    <main>
+        <div id="status"></div>
+
+
+        <div class="container mt-5 col-lg-6 col-sm-10 col-md-10" id="divF">
+            <div class="row align-items-center">
+
+                <form id="contact-form">
+                    <div class="form-group row col-xs-8 col-sm-8col-lg-10 ">
+                        <div>
+                            <label for="search" class="col-lg-12 ">Buscar Personaje</label>
+                            <input class="col-xs-8 col-sm-8col-lg-10 shadow " title="Search" id="search" value="" type="text" required />
+                        </div>
+                    </div>
+                </form>
+                <div class="col-lg-12 col-sm-10 col-xs-10 mt-lg-2 offset-3 " id="divBtn">
+                    <button id="btn1" type="button" class="btn shadow p-3 mb-5 bg-info text-white rounded">Buscar</button>
+                    <div class="spinner-border text-info d-flex justify-content-center mb-5" style="width: 3rem; height: 3rem;" id="spin" role="status">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-start">
+
+                <div id="div1">
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="mt-lg-5">
+        <p class="mb-0 text-center mt-lg-4">&copy;2022 DaVinci</p>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/register-sw.js"></script>
+</body>
+
+</html>

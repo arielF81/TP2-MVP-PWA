@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#status {
+    background-color: #D9BA5F;
+}
+
+main {
+    height: 100vh;
+}
+
+#div1 {
+    height: 100%;
+}
+
+h1 {
+    color: #D9BA5F;
+    font-size: 2em;
+}
+
+label {
+    color: #1AA3D9;
+}
+
+ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+    #divF {
+        margin-left: 5vw;
+        padding-left: 5vw;
+        width: 60vw;
+        height: 10vh;
+    }
+}
+
+input {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 60vw;
+    height: 10vh;
+    padding-left: 10px;
+    outline: none
+}
+
+input[type="text"] {
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    color: black;
+    padding: 1vw;
+}
+
+ul li>a:hover {
+    text-decoration-line: underline;
+    -webkit-transition-property: initial;
+    transition-property: initial;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+li>a {
+    margin-left: 10vw;
+}
+
+nav ul {
+    margin-left: 8vw;
+}
+
+label {
+    font-size: 2em;
+}
+
+.parrafito {
+    font-size: 1.8em;
+}
+
+table {
+    max-width: 50vw;
+    margin-left: 20vw;
+    margin-bottom: 20vh;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        max-width: 10vw;
+        margin-left: 1vw;
+    }
+    #div3 {
+        width: 50vw;
+        font-size: 1em;
+    }
+}
+
+#spin {
+    visibility: hidden;
+}
+
+
+/* Color Theme Swatches in Hex */
+
+.Rick-and-Morty-plushies-1-hex {
+    color: #1AA3D9;
+}
+
+.Rick-and-Morty-plushies-2-hex {
+    color: #D9BA5F;
+}
+
+.Rick-and-Morty-plushies-3-hex {
+    color: #BF8E63;
+}
+
+.Rick-and-Morty-plushies-4-hex {
+    color: #593431;
+}
+
+.Rick-and-Morty-plushies-5-hex {
+    color: #F2F2F2;
+}
+
+
+/* Color Theme Swatches in RGBA */
+
+.Rick-and-Morty-plushies-1-rgba {
+    color: rgba(26, 162, 216, 1);
+}
+
+.Rick-and-Morty-plushies-2-rgba {
+    color: rgba(216, 186, 95, 1);
+}
+
+.Rick-and-Morty-plushies-3-rgba {
+    color: rgba(191, 142, 99, 1);
+}
+
+.Rick-and-Morty-plushies-4-rgba {
+    color: rgba(89, 52, 49, 1);
+}
+
+.Rick-and-Morty-plushies-5-rgba {
+    color: rgba(242, 242, 242, 1);
+}
+
+
+/* Color Theme Swatches in HSLA */
+
+.Rick-and-Morty-plushies-1-hsla {
+    color: hsla(196, 78, 47, 1);
+}
+
+.Rick-and-Morty-plushies-2-hsla {
+    color: hsla(45, 61, 61, 1);
+}
+
+.Rick-and-Morty-plushies-3-hsla {
+    color: hsla(28, 41, 57, 1);
+}
+
+.Rick-and-Morty-plushies-4-hsla {
+    color: hsla(5, 29, 27, 1);
+}
+
+.Rick-and-Morty-plushies-5-hsla {
+    color: hsla(0, 0, 95, 1);
+}
